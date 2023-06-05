@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="./images/logo moche.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>CV Jessy Oviedo</title>
+</head>
+
+<body>
+    <header>
+        <a href="#intro" class="onglet_header first show-content">
+            <div class="square"></div>
+            Acceuil
+        </a>
+
+        <div class="real_footer">
+            <a href="#realisation" class="onglet_header show-content">
+                <div class="square"></div>
+                Réalisations
+            </a>
+
+            <a href="#footer" class="onglet_header show-content">
+                <div class="square"></div>
+                Contact
+            </a>
+        </div>
+
+        <div id="arrow" class="arrow">▼</div>
+        <div class="border-image"></div>
+    </header>
+
+    <div class="circle"></div>
+    <div class="circle2"></div>
+    <div class="traitPetit"></div>
+    <div class="trait"></div>
+    <div class="traitPetit bas"></div>
+
+    <main>
+        <section id="intro">
+            <h1>Jessy OVIEDO</h1>
+
+            <p class="desc">A la recherche d'une alternance en webdesign à partir de Septembre 2023 pour mon école, je mets mes compétences au service de vos projets les plus ambitieux</p>
+
+            <div class="menu">
+                <a href="https://www.mydigitalschool.com/bachelor-webdesign" target="_blank" class="choice_menu">En savoir plus sur l'école</a>
+                <a href="#realisation" class="choice_menu">Voir mes réalisations</a>
+            </div>
+        </section>
+
+        <section id="desc_principal">
+
+            <div class="presentation">
+                <div class="titre firstTitre">
+                    <p>Présentation</p>
+                </div>
+                <div class="texte firstTexte">
+                    <p class="textPresentation">Autodidacte dans le domaine du développement web, c'est ma grande appétence pour la création graphique qui m'a incliné à valider une licence arts plastiques. Ma passion pour les technologies se traduit à travers mon imagination qui m’a amené à toujours exprimer mes créations sur de nouveaux formats et domaines. Ma nature curieuse m’a attiré dans le domaine du numérique pour mes dessins tout d’abord, avant de découvrir dans le cadre de mes loisirs le code. J’y ai développé un bot discord en javascript avec la librairie discordjs avant de m’intéresser à la création de sites web.
+                    </p>
+                    <div>
+                        <a href="CV_OVIEDO_Jessy_webdesign.pdf" class="lien CV" download="CV Jessy Oviedo" target="_blank">CV</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left_column">
+                <div class="etude">
+                    <div class="titre">
+                        <p>Parcours</p>
+                    </div>
+                    <div class="texte">
+
+                        <div class="deco_barre"></div>
+                        <div class="deco_barre nd"></div>
+
+                        <div class="">
+                            <div class="hover-text" id="hoverText1" onclick="toggleText(1)">
+                                <img src="./images/curseur.png" class="curseur" id="curseur1" alt="flèche"/>
+                                <p class="date">Septembre 2023 - ... Bachelor webdesign</p>
+                            </div>
+
+                            <div class="hidden-text" id="text1">
+                                <p class="ecoleText">MyDigitalSchool</p>
+                                <p class="ecoleTextDesc">Alternance dans une entreprise</p>
+                            </div>
+
+                            <div class="hover-text" id="hoverText2" onclick="toggleText(2)">
+                                <img src="./images/curseur.png" class="curseur" id="curseur2" alt="flèche"/>
+                                <p class="date">2019 - 2022 Licence Arts plastiques et Lettres</p>
+                            </div>
+                            <div class="hidden-text" id="text2">
+                                <p class="ecoleText">UCO ANGERS</p>
+                                <p class="ecoleTextNd">Mineure lettres, écriture créative & développement personnel</p>
+                                <p class="ecoleTextDesc">Création plastique et numérique. Apprentissage des logiciels de la suite adobe. Réalisation d’une exposition en projet de fin d’étude. (Manipulation des logiciels Photoshop, Illustrator et InDesign, réalisation d’affiches pour événements, de logo avec charte graphique).</p>
+                            </div>
+
+                            <div class="hover-text" id="hoverText3" onclick="toggleText(3)">
+                                <img src="./images/curseur.png" class="curseur" id="curseur3" alt="flèche"/>
+                                <p class="date">2017-2018 Bac ES</p>
+                            </div>
+                            <div class="hidden-text" id="text3">
+                                <p class="ecoleText">Lycée Jean Bodin</p>
+                                <p class="ecoleTextDesc">Option Latin spécialité mathématique</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="competence">
+                    <div class="titre">
+                        <p>Compétences</p>
+                    </div>
+                    <div class="texte logoCompetence">
+                        <img src="./images/Illustrator.png" class="logo" alt="logo de Adobe Illustrator"/>
+                        <img src="./images/InDesign.png" class="logo" alt="logo de Adobe InDesign"/>
+                        <img src="./images/Photoshop.png" class="logo" alt="logo de Adobe Photoshop"/>
+                        <img src="./images/Premiere.png" class="logo" alt="logo de Adobe Premiere Pro"/>
+                        <img src="./images/Wordpress.png" class="logo" alt="logo de Wordpress"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="realisation">
+            <h2>Réalisations</h2>
+
+            <div class="real">
+
+                <div class="web">
+                    <div class="titre">
+                        <p>Arts Plastiques</p>
+                    </div>
+                    <div class="contentReal">
+                        <div class="imgContainer">
+                            <img src="./images/artsPlastiques/arcane.png" class="imgArtPlastique" alt="Les contes des Arcanes">
+                        </div>
+                        <p class="descriptionArtPlastique">Les contes des arcanes</p>
+                        <p class="descriptionPartieDeux">Micro-entreprise</p>
+                    </div>
+                    <div class="bordure"></div>
+                </div>
+
+                <div class="artPlastique">
+                    <div class="titre">
+                        <p>Arts Plastiques</p>
+                    </div>
+                    <div class="contentReal">
+                        <div class="imgContainer">
+                            <img src="./images/artsPlastiques/Chacha.png" class="imgArtPlastique" alt="Charlotte de Valois">
+                        </div>
+                        <p class="descriptionArtPlastique">Charlotte de Valois</p>
+                        <p class="descriptionPartieDeux">Papier découpé</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="real">
+
+                <div class="web">
+                    <div class="titre">
+                        <p>Arts Plastiques</p>
+                    </div>
+                    <div class="contentReal">
+                        <div class="imgContainer">
+                            <img src="./images/artsPlastiques/Pyra.png" class="imgArtPlastique" alt="Pyra endormie sous un arbre">
+                        </div>
+                        <p class="descriptionArtPlastique">Pique-nique au bord d'une falaise</p>
+                        <p class="descriptionPartieDeux">Dessin numérique - Work in progress</p>
+                    </div>
+                    <div class="bordure"></div>
+                </div>
+
+                <div class="artPlastique">
+                    <div class="titre">
+                        <p>Arts Plastiques</p>
+                    </div>
+                    <div class="contentReal">
+                        <div class="imgContainer">
+                            <img src="./images/artsPlastiques/angers.png" class="imgArtPlastique" alt="Chateau d'Angers">
+                        </div>
+                        <p class="descriptionArtPlastique">Fantastique Angers</p>
+                        <p class="descriptionPartieDeux">Affiche projet à Angers</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="real">
+
+                <div class="web">
+                    <div class="titre">
+                        <p>Arts Plastiques</p>
+                    </div>
+                    <div class="contentReal">
+                        <div class="imgContainer">
+                            <img src="./images/artsPlastiques/Nero.png" class="imgArtPlastique paysage" alt="Nero">
+                        </div>
+                        <p class="descriptionArtPlastique">Nero</p>
+                        <p class="descriptionPartieDeux">Dessin aquarelle</p>
+                    </div>
+                    <div class="bordure"></div>
+                </div>
+
+                <div class="artPlastique">
+                    <div class="titre">
+                        <p>Arts Plastiques</p>
+                    </div>
+                    <div class="contentReal">
+                        <div class="imgContainer">
+                            <img src="./images/artsPlastiques/kirin.png" class="imgArtPlastique" alt="Kirin">
+                        </div>
+                        <p class="descriptionArtPlastique">Kirin</p>
+                        <p class="descriptionPartieDeux">Dessin numérique et ghost paper</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="real">
+
+                <div class="web">
+                    <div class="titre">
+                        <p>Arts Plastiques</p>
+                    </div>
+                    <div class="contentReal">
+                        <div class="imgContainer">
+                            <img src="./images/artsPlastiques/yokai.png" class="imgArtPlastique paysage" alt="Affiche exposition Yokai">
+                        </div>
+                        <p class="descriptionArtPlastique">Affiche exposition Yokai</p>
+                        <p class="descriptionPartieDeux">Dessin numérique</p>
+                    </div>
+                    <div class="bordure"></div>
+                </div>
+
+                <div class="artPlastique">
+                    <div class="titre">
+                        <p>Arts Plastiques</p>
+                    </div>
+                    <div class="contentReal">
+                        <div class="imgContainer">
+                            <img src="./images/artsPlastiques/affiche.png" class="imgArtPlastique" alt="Affiche exposition">
+                        </div>
+                        <p class="descriptionArtPlastique">Affiche exposition film & la femme dans le monde</p>
+                        <p class="descriptionPartieDeux">Affiche en papier découpé et collé</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="footer">
+            <p id="#mail">jess.ovied@gmail.com</p>
+            <a href="https://www.linkedin.com/in/jessy-oviedo-0b984a1b0/" class="lien">
+                <img src="images/linkedIn.png" class="logoFooter" alt="logo de linkedIn"/>
+            </a>
+            <a href="https://github.com/Jess-Drack" class="lien">
+                <img src="images/github.png" class="logoFooter" alt="logo de GitHub"/>
+            </a>
+        </section>
+    </footer>
+    <script>
+        function toggleText(id) {
+            var text = document.getElementById("text" + id);
+            var hoverText = document.getElementById("hoverText" + id);
+            var curseur = document.getElementById("curseur" + id);
+
+            var activeElements = document.getElementsByClassName("active");
+            console.log(activeElements)
+            for (var i = 0; i < activeElements.length; i++) {
+                if (activeElements[i] !== hoverText && activeElements[i].classList.contains("hover-text")) {
+                    activeElements[i].classList.remove("active");
+                    var associatedId = activeElements[i].id.replace("hoverText", "text");
+                    associatedId = associatedId.replace("curseur", "text");
+                    document.getElementById(associatedId).classList.remove("active");
+                    document.getElementById(activeElements[i].id.replace("hoverText", "curseur")).classList.remove("active");
+                }
+            }
+
+            text.classList.toggle("active");
+            hoverText.classList.toggle("active");
+            curseur.classList.toggle("active");
+        }
+
+        $(document).ready(function() {
+            $('.arrow').click(function() {
+                $('.first, .onglet_header:not(.first)').toggleClass('show-content');
+            });
+        });
+    </script>
+</body>
+</html>
