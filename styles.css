@@ -450,13 +450,6 @@ footer{
 }
 
 
-@media (prefers-color-scheme:dark) {
-    body, *{
-        background-color: inherit !important;
-        color: inherit !important;
-    }
-}
-
 @media only screen and (max-width: 480px) {
 
     header{
