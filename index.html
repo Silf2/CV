@@ -196,7 +196,17 @@
             </div>
         </section>
     </footer>
+    
     <script>
+        function isSamsungBrowser() {
+            const userAgent = navigator.userAgent;
+            return /SamsungBrowser/i.test(userAgent);
+        }
+        
+        if (isSamsungBrowser()) {
+            alert("Attention, vous utilisez le navigateur Samsung. Il est possible que le site ne s'affiche pas correctement. Nous vous reccomandons donc d'utiliser un autre navigateur pour une experience optimale.");
+        }
+        
         function toggleText(id) {
             var text = document.getElementById("text" + id);
             var hoverText = document.getElementById("hoverText" + id);
