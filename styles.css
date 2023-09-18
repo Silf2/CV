@@ -495,6 +495,7 @@ h2{
 .firstImg:hover{
     filter: drop-shadow(5px 5px 10px black);
     -webkit-filter: drop-shadow(5px 5px 10px black);
+    transition: all .2s ease-out;
 }
 
 .precedent,
